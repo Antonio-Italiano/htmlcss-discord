@@ -28,6 +28,9 @@ body {
 .w-60 {
     width: 60%;
 }
+a { 
+    text-decoration: none;
+}
 
 /* Header */
 .flex {
@@ -35,7 +38,7 @@ body {
 }
 
 .home {
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     min-height: 50px; 
     padding: 10px;  
 }
@@ -43,39 +46,86 @@ body {
 .logo,
 .link,
 .login {
-    background-color: #DAA520;
-    border: 1px dashed;
     min-height: 30px;
     padding: 5px;    
 }    
-.link {
-    justify-content: center;
-}
-.a-link {
-    text-decoration: none;
-    padding: 0 5px;
-    color: black;
-    
-}
-.login {
-    justify-content: flex-end;
+
+.logo{
+    padding: 8px;
 }
 
+.link {
+    justify-content: center;
+    
+}
+.img-logo {
+    height: 30px;
+
+}
+
+.login {
+    justify-content: flex-end;
+    padding-bottom: 15px;
+
+    
+}
+.button-log {
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.a-link {
+    padding: 10px 15px;
+    color: white;
+    font-size: 12px;
+
+}
 
 /* Section Blu */
 .section-blu {
-    background-color: #00008B;
-    min-height: 300px;  
-    padding: 40px 0;  
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 450px;  
+    padding: 40px 0; 
+
 }
 .rect-section-blu {
-    background-color: #EE82EE;
-    min-height: 250px;
-    width: 50%;
+    min-height: 300px;
+    width: 45%;
     margin: 0 auto;
-    border: 1px dashed;
 }
 
+.ipertext {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+h1.ipertext {       
+    font-size: 45px;    
+}
+.nav-mac-disc {
+    margin-top: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-mac,
+.nav-disc{   
+    padding: 10px 15px;
+    border-radius: 30px;
+    
+
+}
+.nav-mac{
+    background-color: white;
+    color: black;
+}
+.nav-disc {
+    background-color: #23272A;
+    color: white;
+}
 
 /* Section White */
 .w-65 {
@@ -141,7 +191,7 @@ hr {
     padding: 10px 0;
     justify-content: space-between;
 }
-button {
+.sign-up {
     font-size: 10px;
     background-color: #FFB6C1;
     border: 1px dashed;
