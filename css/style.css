@@ -47,6 +47,9 @@ h2 {
 h3 {
     margin: 40px 0 20px;
 }
+h5 {
+    color: white;
+}
 
 /* Header */
 .flex {
@@ -130,6 +133,9 @@ h1.ipertext {
     padding: 10px 15px;
     border-radius: 30px;  
 }
+.fa-solid {
+    padding: 7px;    
+}
 .nav-mac{
     background-color: white;
     color: black;
@@ -137,9 +143,7 @@ h1.ipertext {
 .nav-disc {
     background-color: #23272A;
     color: white;
-}
-.fa-solid {
-    margin-right: 5px;
+    line-height: 30px;
 }
 
 /* Section White */
@@ -190,48 +194,78 @@ h1.ipertext {
     
 }
 
-
-/* Section Black */
+/* Footer up*/
 .sect-black {
     background-color: #23272A;
     padding: 10px 0;
 }
 .w-25 {
-    background-color: #F08080;
     min-height: 300px;
     width: 25%;
-    padding: 0 40px;
+    padding-right: 60px;
+}
+
+
+.fa-brands {
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
 }
 .flag {
     width: 20px;
     margin-right: 5px;
 }
 .w-75 {
-    background-color: #20B2AA;
-    min-height: 400px;
+    min-height: 300px;
     width: 75%;
 }
-.w-25gren {
+.w-25su75 {
+    flex-direction: column;
     width: 25%;
+    padding: 40px 0 0 60px;
+        
+}
+.nav-footer,
+.text-footer{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.nav-footer {
+    color: white;
+}
+.text-footer,
+.text-blu {
+    color: #7289DA;
+}
+.color-blu {
+    border-color: #7289DA;
 }
 hr {
     margin: 30px 0;
 }
+.fa-chevron-down {
+    color: white;
+}
 
-/* Footer */
+/* Footer down */
 .foot-black{
     background-color: #23272A;
+    min-height: 120px;
 }
 .footer {
-    background-color: #7FFFD4;
     min-height: 40px;
     width: 100%;
-    padding: 10px 0;
+    padding: 10px;
     justify-content: space-between;
 }
 .sign-up {
     font-size: 10px;
-    background-color: #FFB6C1;
-    border: 1px dashed;
-    padding: 4px;
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
